@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+ </section>
+<!--------Contact us-------->
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243556.94499823495!2d78.2948819887695!3d17.47993597700788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1792747817920!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+ </section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-solid fa-house"></i>
+                <span>
+                    <h5>xyz road, ABC Building</h5>
+                    <p>Hydrebad, Telangana, India</p>
+                </span>
+            </div>
+             <div>
+               <i class="fa fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91-7893227539</h5>
+                    <p>Monday to saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+               <i class="fa fa-solid fa-envelope"></i>
+                <span>
+                    <h5>info@easy.com</h5>
+                    <p>Email Us for any query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+        <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="text" placeholder="Enter your subject" required>
+            <textarea rows="8" placeholder="message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send message</button>
+
+        </form>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--------footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Cupiditate maiores voluptatibus incidunt corrupti temporibus sapiente aspernatur <br>doloremque in suscipit officia quas consequatur laborum mollitia consectetur deleniti facilis, illo dolorem similique!</p>
+    <div class="icons">
+        <i class="fa fa-brands fa-square-facebook"></i>
+        <i class="fa fa-brands fa-twitter"></i>
+        <i class="fa fa-brands fa-square-instagram"></i>
+        <i class="fa fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fao fa-regular fa-heart"></i>by  Easy Tutorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--------javascript-------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+   
+</body>
+</html>
